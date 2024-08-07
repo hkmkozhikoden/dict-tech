@@ -1,0 +1,2 @@
+# dict-tech
+dicto technologies
