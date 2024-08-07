@@ -1,0 +1,16 @@
+#root{
+  max-width: 100%;
+  margin: auto;
+}
+section{
+  padding: 60px 0px;
+  position: relative;
+  overflow: hidden;
+}
+p{
+  font-size: 14px;
+}
+a{
+  text-decoration: none !important;
+  list-style: none;
+}

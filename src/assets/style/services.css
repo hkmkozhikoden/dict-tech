@@ -1,0 +1,38 @@
+.services-sec .ser-card {
+    padding: 10px 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 42px 0 rgba(0,0,0,.08);
+    position: relative;
+    z-index: 0;
+}
+.services-sec .ser-card:hover::before{
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.services-sec .ser-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.services-sec .ser-card .cont{
+    padding: 0px 10px;
+}
+.services-sec .ser-card::before{
+
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 50px;
+    right: 0;
+    bottom: 0 ;
+    background: #5c8ffd;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    top: 100%;
+    z-index: 1;
+}
