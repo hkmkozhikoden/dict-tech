@@ -2,7 +2,7 @@
   max-width: 100%;
   margin: auto;
 }
-section{
+section, footer{
   padding: 60px 0px;
   position: relative;
   overflow: hidden;
@@ -13,4 +13,30 @@ p{
 a{
   text-decoration: none !important;
   list-style: none;
+}
+/* bg */
+.bg-l-white
+{
+  background: #eeeeee !important;
+}
+/* border-radius  */
+.rounded-5{
+  border-radius: 5px;
+}
+.rounded-10{
+  border-radius: 10px;}
+.rounded-15{
+  border-radius: 15px;
+}
+.rounded-20{
+  border-radius: 20px;
+}
+.rounded-25{
+  border-radius: 25px;
+}
+.rounded-30{
+  border-radius: 30px;
+}
+.font-normal{
+  font-weight: 400;
 }

@@ -16,7 +16,7 @@ function Services() {
                 <div className="col-12 text-center mb-3">
                     <h2>Our Services</h2>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mt-3">
+                <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="ser-card">
                         <img className='img-fluid' src={Service1} alt="service" />
                         <div className="cont mt-3">
@@ -26,7 +26,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mt-3">
+                <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="ser-card">
                         <img className='img-fluid' src={Service2} alt="service" />
                         <div className="cont mt-3">
@@ -36,7 +36,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mt-3">
+                <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="ser-card">
                         <img className='img-fluid' src={Service3} alt="service" />
                         <div className="cont mt-3">
@@ -46,7 +46,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mt-3">
+                <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="ser-card">
                         <img className='img-fluid' src={Service4} alt="service" />
                         <div className="cont mt-3">
@@ -56,7 +56,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mt-3">
+                <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="ser-card">
                         <img className='img-fluid' src={Service5} alt="service" />
                         <div className="cont mt-3">
@@ -66,7 +66,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-3 mt-3">
+                <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="ser-card">
                         <img className='img-fluid' src={Service6} alt="service" />
                         <div className="cont mt-3">

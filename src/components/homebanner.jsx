@@ -7,6 +7,10 @@ import Banner2 from "../assets/images/banner/1.jpg";
 import Banner3 from "../assets/images/banner/3.jpg";
 import Banner4 from '../assets/images/banner/4.jpg';
 import Banner5 from '../assets/images/banner/5.jpg';
+import Clients from '../assets/images/icons/client.png'
+import Faster from '../assets/images/icons/faster.png'
+
+
 import "../assets/style/banner.css";
 
 function HomeBanner() {
@@ -42,9 +46,43 @@ function HomeBanner() {
                     <h1 className="text-xl-semibold">{d.name1}</h1>
                   </div>
                   <img src={d.img} alt={d.name} className="banner-img" />
-                </div>
+                </div>  
               ))}
             </Slider>
+          </div>
+          <div className="banner-bottom">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-3 mb-3 mb-md-0">
+                      <div className="sm-card text-center">
+                        <img className="icons" src={Clients} alt="Total Clients" />
+                        <h2>3 +</h2>
+                        <h6 className="font-normal">successful client</h6>
+                      </div>
+                    </div>
+                    <div className="col-md-3 mb-3 mb-md-0">
+                      <div className="sm-card text-center">
+                        <img className="icons" src={Faster} alt="Total Clients" />
+                        <h2>2 X</h2>
+                        <h6 className="font-normal">Faster Deployment</h6>
+                      </div>
+                    </div>
+                    <div className="col-md-3 mb-3 mb-md-0">
+                      <div className="sm-card text-center">
+                        <img className="icons" src={Clients} alt="Total Clients" />
+                        <h2>3 +</h2>
+                        <h6 className="font-normal">successfull client</h6>
+                      </div>
+                    </div>
+                    <div className="col-md-3 mb-3 mb-md-0">
+                      <div className="sm-card text-center">
+                        <img className="icons" src={Faster} alt="Total Clients" />
+                        <h2>3 +</h2>
+                        <h6 className="font-normal">successfull client</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
           </div>
         </div>
       </section>
@@ -55,28 +93,25 @@ function HomeBanner() {
 
 const data = [
   {
-    name: "The Best Kindergarten ",
-    name1: "School For Your Child",
+    name: "Crafting Software That Fits Your Needs",
+    name1: "",
     img: Banner1,
   },
   {
-    name: "The Best Kindergarten ",
-    name1: "School For Your Child",
+    name: "Where Your Ideas Become Digital Reality",
+    name1: "",
     img: Banner2,
   },
   {
-    name: "The Best Kindergarten ",
-    name1: "School For Your Child",
+    name: "Thoughtful Development for Every Project",
     img: Banner3,
   },
   {
-    name: "The Best Kindergarten ",
-    name1: "School For Your Child",
+    name: "Simple Solutions, Powerful Results",
     img: Banner4,
   },
   {
-    name: "The Best Kindergarten ",
-    name1: "School For Your Child",
+    name: "Building Your Vision, One Line at a Time",
     img: Banner5,
   },
 ];

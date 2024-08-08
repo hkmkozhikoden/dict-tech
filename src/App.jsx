@@ -1,5 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Route,Routes}from "react-router-dom";
+import AOS from 'aos';
 import Home from './pages/home';
 import About from './pages/about';
 import Service from './pages/service';
@@ -8,8 +9,14 @@ import Protfolio from './pages/protfolio';
 import Contact from './pages/contact';
 import '../src/assets/style/modules/aos/aos.css'
 import '../src/assets/style/modules/boostrap/bootstrap.css'
+import { useEffect } from 'react';
 function App() {
-
+  useEffect(() => {
+    AOS.init({
+        duration: 1000,
+        offset: 10,
+    });
+  }, []);
   return (
     <>
     <Router>

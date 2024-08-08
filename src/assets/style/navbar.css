@@ -2,10 +2,10 @@
 
 
 :root {
-	--mainColor: #14181d ;
+	--mainColor: #ffffff ;
 	--mainColorLight: #5767aa;
 	--secondaryColor: #db2b39;
-	--textColor: #eee;
+	--textColor: #2b2b2b;
 }
 
 header {
