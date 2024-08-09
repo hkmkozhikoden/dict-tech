@@ -40,3 +40,10 @@ a{
 .font-normal{
   font-weight: 400;
 }
+.truncate-5 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -9,6 +9,7 @@ import Banner4 from '../assets/images/banner/4.jpg';
 import Banner5 from '../assets/images/banner/5.jpg';
 import Clients from '../assets/images/icons/client.png'
 import Faster from '../assets/images/icons/faster.png'
+import Devlivery from '../assets/images/icons/on-time.png'
 
 
 import "../assets/style/banner.css";
@@ -69,9 +70,9 @@ function HomeBanner() {
                     </div>
                     <div className="col-md-3 mb-3 mb-md-0">
                       <div className="sm-card text-center">
-                        <img className="icons" src={Clients} alt="Total Clients" />
-                        <h2>3 +</h2>
-                        <h6 className="font-normal">successfull client</h6>
+                        <img className="icons" src={Devlivery} alt="Total Clients" />
+                        <h2>5/5</h2>
+                        <h6 className="font-normal">On-time Delivery</h6>
                       </div>
                     </div>
                     <div className="col-md-3 mb-3 mb-md-0">

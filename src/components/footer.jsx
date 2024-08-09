@@ -13,7 +13,7 @@ function Footer() {
       <div className="footer-top">
       <div className='container'>
         <div className="row">
-          <div className="col-lg-5 col-md-6 col-12">
+          <div className="col-lg-6 col-md-6 col-12 mb-3 mb-lg-0">
             <div className="logo">
               <img className='logo' src={Logo} alt="logo" />
             </div>
@@ -26,7 +26,7 @@ function Footer() {
               <img alt='Twitter' className='social-media-links' src={Twitter}></img>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-12">
+          <div className="col-lg-3 col-md-6 col-12 mb-3 mb-lg-0">
           <h3 className="widget-title">Quick Links</h3>
           <ul className='footer-contact'>
           <Link to={"/"}> <li > Service</li></Link>
@@ -36,7 +36,7 @@ function Footer() {
           <Link to={"/contact"}><li>Contact</li></Link>
           </ul>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
           <h3 className="widget-title">Contact</h3>
          <ul className='contact-right'>
          <li>

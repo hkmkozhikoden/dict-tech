@@ -48,7 +48,7 @@ const settings = {
    <div>
      <section className="testimonial" data-aos="fade-up" data-aos-offset="10">
         <div className="container">
-         <div className=" m-auto overflow-hidden" >
+         <div className=" m-auto overflow-hidden testimonial_slick" >
           <div className='col-12 text-center mb-3'>
             <h4 className="mb-1 mt-3">Testimonials</h4>
             <h5 className="mb-3 mt-1">Lorem ipsum dolor sit amet.</h5>

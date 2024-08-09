@@ -1,0 +1,30 @@
+.home-blog .card {
+    padding: 10px 15px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: box-shadow 0.3s ease-in-out; /* Ensure the box-shadow transition is smooth */
+}
+.home-blog .card:hover
+{
+    color: #000000 !important;
+}
+.home-blog .card:hover {
+    box-shadow: rgba(44, 44, 44, 0.2) 0px 8px 24px;
+}
+
+.home-blog .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out; /* Apply the transition to the transform property */
+}
+
+.home-blog .card:hover img {
+    transform: scale(1.1);
+
+}
+
+.home-blog .card .btn:hover {
+    color: #176ff1;
+}
