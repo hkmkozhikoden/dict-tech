@@ -1,0 +1,55 @@
+.contact-from-sec
+{
+    position: relative;
+    margin-top: -190px;
+}
+.contact-from-sec .contact-form {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #3a8ffd;
+}
+.contact-from-sec .contact-form label
+{
+display: block;
+margin-bottom: 10px;
+}
+.contact-from-sec .contact-form .from-card .form-control
+{
+    width: 100%;
+    border: 1px solid #f0f0f0;
+}
+.contact-from-sec .contact-form .from-card textarea
+{
+    min-height: 130px;
+}
+.contact-from-sec .contact-form .from-card
+{
+    background-color: #ffffff;
+    padding: 30px 30px;
+}
+.contact-from-sec .contact-form .contact-address{
+    padding: 20px 30px;
+}
+.contact-from-sec .contact-form .icons
+{
+    width: 20px;
+    height: 20px;
+}
+.contact-from-sec .contact-form a
+{
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+}
+.contact-from-sec .contact-form .social-media-links
+{
+    height: 25px;
+    width: 25px;
+    margin: 12px 20px;
+}
+.contact-from-sec .contact-form .btn
+{
+    padding: 10px 2 0px;
+    background-color: #3a8ffd;
+    color: #ffffff;
+    border-radius: 0px;
+}

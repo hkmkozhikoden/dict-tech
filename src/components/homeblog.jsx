@@ -37,7 +37,7 @@ function HomeBlog() {
               <h3 className='text-center'>Latest Updates</h3>
             </div>
             {blogs.map((blog) => (
-              <div key={blog.id} className="col-md-4 mb-3"  data-aos="fade-up" data-aos-offset="10">
+              <div key={blog.id} className="col-xl-4 col-md-6 mb-3"  data-aos="fade-up" data-aos-offset="10">
                 <div className="card border-0">
                     <div className="img-card position-relative overflow-hidden rounded-5">
                     <img src={blog.image} alt="Blog image" />

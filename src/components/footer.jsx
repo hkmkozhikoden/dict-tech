@@ -9,7 +9,7 @@ import Logo from '../assets/images/logo/logo-b.png'
 
 function Footer() {
   return (
-    <footer className='footer pb-0'>
+    <footer className='footer pb-0 pt-0'>
       <div className="footer-top">
       <div className='container'>
         <div className="row">
