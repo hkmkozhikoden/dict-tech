@@ -14,7 +14,7 @@ function ContactForm() {
         <div className="container">
           <div className="contact-form">
             <div className="row">
-              <div className="col-lg-8 col-md-12">
+              <div className="col-lg-8 col-md-12" data-aos="fade-up" data-aos-offset="10">
                 <div className="from-card">
                   <h4 className='mb-3'>Send us a Message</h4>
                   <div className="row">
@@ -44,7 +44,7 @@ function ContactForm() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-12">
+              <div className="col-lg-4 col-md-12" data-aos="fade-up" data-aos-offset="10">
                 <div className="contact-address text-white">
                     <h4 className='text-white'>Contact Information</h4>
                     <div className='d-flex mt-5'>
@@ -65,7 +65,7 @@ function ContactForm() {
                         Vilayil (PO) <br />
                         Malappuram (DT)</div>
                     </div>
-                    <div className='d-flex flex-wrap mt-3 mt-md-5'>
+                    <div className='d-flex flex-wrap mt-3 mt-md-5' data-aos="fade-up" data-aos-offset="10">
                     <img alt='insta' className='social-media-links' src={Instagragm}></img>
                     <img alt='Facebook' className='social-media-links' src={Facebook}></img>
                     <img alt='Linkedin' className='social-media-links' src={Linkedin}></img>

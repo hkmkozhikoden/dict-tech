@@ -1,49 +1,27 @@
-#root{
-  max-width: 100%;
-  margin: auto;
-}
-section, footer{
-  padding: 60px 0px;
-  position: relative;
-  overflow: hidden;
-}
-p{
-  font-size: 14px;
-}
-a{
-  text-decoration: none !important;
-  list-style: none;
-}
+#root{max-width: 100%;margin: auto;}
+section, footer{padding: 60px 0px;position: relative;overflow: hidden;}
+p{font-size: 14px !important;}
+a{text-decoration: none !important;list-style: none;}
+.fs-15{font-size: 15px !important;}
+.fs-18{font-size: 18px !important;}
+
+/* line-height */
+.l-h-30{line-height:30px;}
 /* bg */
-.bg-l-white
-{
-  background: #eeeeee !important;
-}
+.bg-l-white{background: #eeeeee !important;}
+/* font-wieght */
+.fw-400{font-weight: 400 !important;}
+.fw-500{font-weight: 500 !important;}
+.fw-600{font-size: 600 !important;}
+.fw-700{font-weight: 700 !important;}
+.fw-800{font-weight: 800 !important;}
+.fw-900{font-size: 900 !important;}
 /* border-radius  */
-.rounded-5{
-  border-radius: 5px;
-}
-.rounded-10{
-  border-radius: 10px;}
-.rounded-15{
-  border-radius: 15px;
-}
-.rounded-20{
-  border-radius: 20px;
-}
-.rounded-25{
-  border-radius: 25px;
-}
-.rounded-30{
-  border-radius: 30px;
-}
-.font-normal{
-  font-weight: 400;
-}
-.truncate-5 {
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-  display: -webkit-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+.rounded-5{border-radius: 5px !important;}
+.rounded-10{border-radius: 10px !important;}
+.rounded-15{border-radius: 15px !important;}
+.rounded-20{border-radius: 20px !important;}
+.rounded-25{border-radius: 25px !important;}
+.rounded-30{border-radius: 30px !important;}
+.font-normal{ font-weight: 400 !important;}
+.truncate-5 {-webkit-box-orient: vertical;-webkit-line-clamp: 5;display: -webkit-box;overflow: hidden;text-overflow: ellipsis;}
