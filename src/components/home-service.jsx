@@ -1,24 +1,26 @@
 import React from 'react'
-import Service1 from '../assets/images/service/web1.jpg'
-import Service2 from '../assets/images/service/app.jpg'
+import { FaLaptopCode } from "react-icons/fa";
+import { MdOutlinePhoneIphone } from "react-icons/md";
+
 import Service3 from '../assets/images/service/software.jpg'
 import Service4 from '../assets/images/service/seo.jpg'
 import Service5 from '../assets/images/service/ecommerce.jpg'
 import Service6 from '../assets/images/service/marketing.jpg'
 
-import '../assets/style/services.css'
-function Services() {
+import '../assets/style/home-services.css'
+function HomeServices() {
   return (
     <div>
-      <section className='services-sec'>
+      <section className='home-services-sec'>
         <div className="container">
             <div className="row">
             <div className="col-12 text-center mb-3">
                     <h2>Our Services</h2>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
-                    <div className="ser-card">
-                        <img className='img-fluid' src={Service1} alt="service" />
+                    <div className="ser-card text-center">
+                        {/* <img className='img-fluid' src={Service1} alt="service" /> */}
+                        <MdOutlinePhoneIphone />
                         <div className="cont mt-3">
                             <h4>Mobile App Development</h4>
                             <p> Building mobile apps that connect with your audience. We bring your ideas to life with easy-to-use designs and dependable performance.</p>
@@ -27,8 +29,9 @@ function Services() {
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
-                    <div className="ser-card">
-                        <img className='img-fluid' src={Service2} alt="service" />
+                    <div className="ser-card text-center">
+                        {/* <img className='img-fluid' src={Service2} alt="service" /> */}
+                        <FaLaptopCode />
                         <div className="cont mt-3">
                             <h4>Web Development</h4>
                             <p>Crafting functional, user-friendly websites that reflect your vision.
@@ -86,4 +89,4 @@ function Services() {
   )
 }
 
-export default Services
+export default HomeServices

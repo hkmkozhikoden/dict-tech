@@ -71,9 +71,15 @@ header .header-logo
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-        background-color: #29335c !important;
+        background-color: #222 !important;
 		transition: 1s;
 		z-index: 9;
+	}
+	.responsive_nav a li{
+		color: #fff !important;
+	}
+	nav .nav-close-btn {
+		color: #fff;
 	}
 
 	header .responsive_nav {

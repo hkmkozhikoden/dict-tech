@@ -12,9 +12,9 @@ function ContactForm() {
     <div>
       <section className='contact-from-sec'>
         <div className="container">
-          <div className="contact-form">
+          <div className="contact-form" data-aos="fade-up" data-aos-offset="10">
             <div className="row">
-              <div className="col-lg-8 col-md-12" data-aos="fade-up" data-aos-offset="10">
+              <div className="col-lg-8 col-md-12">
                 <div className="from-card">
                   <h4 className='mb-3'>Send us a Message</h4>
                   <div className="row">

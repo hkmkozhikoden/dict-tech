@@ -43,7 +43,7 @@ function HomeBlog() {
                     <img src={blog.image} alt="Blog image" />
                     </div>
                   <div className="cont mt-3">
-                    <h4>{blog.title}</h4>
+                    <h5 className='fs-21'>{blog.title}</h5>
                     <p className='truncate-5'>{blog.content}</p>
                     <Link className='btn' to={"/"}><li>Read More</li></Link>
                   </div>
