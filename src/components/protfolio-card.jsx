@@ -41,7 +41,7 @@ function ProtfolioCard() {
           {blogData.map((protfolio, index) => (
             <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-offset="10">
               <div className="protfolio-card">
-                  <div className="position-relative overflow-hidden">
+                  <div className="position-relative">
                       <img className='protfolio-img mb-3' src={protfolio.image} alt="JDT Islam" />
                       <a href={protfolio.url} target='_blank' class="bt">
                       <GoArrowUpRight />
