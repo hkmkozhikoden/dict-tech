@@ -25,7 +25,7 @@ function Navbar() {
           			   <Link className="" to={"/about"}><li>About</li></Link>
                        <Link className="" to={"/service"}><li>Service</li></Link>
           			   <Link className="" to={"/blog"}><li>Blog</li></Link>
-                       <Link className="" to={"/portfolio"}><li>Protfolio</li></Link>
+                       <Link className="" to={"/protfolio"}><li>Protfolio</li></Link>
           			   <Link className="" to={"/contact"}><li>Contact</li></Link> 
 			           	<button
 			           		className="nav-btn nav-close-btn"

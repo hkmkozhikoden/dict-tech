@@ -107,5 +107,30 @@
   }
 .testimonial .slick-dots
 {
-  bottom: -20px;
+  bottom: -30px;
+}
+
+.testimonial .slick-dots li {
+  margin: 0;}
+.testimonial .slick-dots li button {
+  margin: 0;
+  padding: 5px 0;}
+.testimonial .slick-dots li.slick-active button{
+  background: #444;
+}
+.testimonial .slick-dots li button{
+  background: #d6d6d6b4;
+  /* border: 1px solid #176ff1; */
+  border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.testimonial .slick-dots li button:before {
+  opacity: initial;
+  font-size: 30px;
+  color: transparent;
+}
+.testimonial .box-shadow-m
+{
+   box-shadow: 3px 4px 10px 3px #00000014;
 }

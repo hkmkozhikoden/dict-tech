@@ -6,6 +6,7 @@ import Devlivery from '../assets/images/icons/on-time.png'
 
 
 import "../assets/style/banner.css";
+import { Link } from "react-router-dom";
 
 function HomeBanner() {
   return (
@@ -18,7 +19,7 @@ function HomeBanner() {
                  <div className="row">
                   <div className="col-md-8 col-lg-6"  data-aos="fade-up" data-aos-offset="10">
                   <h1 className="text-xl-semibold">Excellence Through Innovation</h1>
-                  <button className="btn-banner">Book a meeting</button>
+                  <Link to='/contact' className="btn-banner text-black">Book a meeting</Link>
                   </div>
                  </div>
                 </div>

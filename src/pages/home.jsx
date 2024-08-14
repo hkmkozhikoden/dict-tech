@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import HomeBanner from '../components/homebanner'
-import Services from '../components/services'
 import AboutSection from '../components/about-section'
 import Testimonial from '../components/testimonials'
 import Footer from '../components/footer'
 import HomeBlog from '../components/homeblog'
+import HomeServices from '../components/home-service'
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
         <Navbar/>
         <HomeBanner/>
         <AboutSection/>
-        <Services/>
+        <HomeServices/>
         <Testimonial/>
         <HomeBlog/>
         <Footer/>

@@ -9,6 +9,7 @@ import Reactlogo from '../assets/images/about/react.png';
 import Reactnative from '../assets/images/about/react-native.png';
 import Nodejs from '../assets/images/about/nodejs.png';
 import Flutter from '../assets/images/about/flutter.png';
+import Html from '../assets/images/about/html.png'
 
 import '../assets/style/mission-vision.css';
 
@@ -18,15 +19,16 @@ function ProgramingLangues() {
         { name: 'React Native', image: Reactnative },
         { name: 'Django', image: Django },
         { name: 'Python', image: Python },
+        { name: 'HTML 5', image: Html },
         { name: 'React', image: Reactlogo },
         { name: 'Node.js', image: Nodejs },
-        { name: 'Flutter', image: Flutter }
+        { name: 'Flutter', image: Flutter },
     ];
 
     var settings = {
         dots: false,
         arrows: false,
-        speed: 1500,
+        speed: 1000,
         autoplay: true,
         infinite: true,
         slidesToShow: 4,

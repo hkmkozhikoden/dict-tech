@@ -48,22 +48,23 @@ function ContactForm() {
                 <div className="contact-address text-white">
                     <h4 className='text-white'>Contact Information</h4>
                     <div className='d-flex mt-5'>
-                       <img className='icons' src={Map} alt="" /> 
+                       <img className='icons mt-1' src={Map} alt="" /> 
                        <div className='ms-3'>Dicto Technologies <br />
                         Vilayil (PO) <br />
                         Malappuram (DT)</div>
                     </div>
                     <div className='d-flex mt-3 mt-md-5'>
-                       <img className='icons' src={Phone} alt="" /> 
+                       <img className='icons mt-1' src={Phone} alt="" /> 
                        <div className='ms-3'>
                         <a href="">+91 98460 07257</a>
                         </div>
                     </div>
                     <div className='d-flex mt-3 mt-md-5'>
-                       <img className='icons' src={Sms} alt="" /> 
-                       <div className='ms-3'>Dicto Technologies <br />
-                        Vilayil (PO) <br />
-                        Malappuram (DT)</div>
+                       <img className='icons mt-2' src={Sms} alt="" /> 
+                       <div className="ms-3">
+                         <a className='d-block' href="mailto:dictotechnologies@gmail.com">dictotechnologies@gmail.com</a>
+                         <a className='d-block' href="#">info@dictotechnologies.com</a>
+                       </div>
                     </div>
                     <div className='d-flex flex-wrap mt-3 mt-md-5' data-aos="fade-up" data-aos-offset="10">
                     <img alt='insta' className='social-media-links' src={Instagragm}></img>

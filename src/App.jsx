@@ -10,6 +10,7 @@ import Contact from './pages/contact';
 import '../src/assets/style/modules/aos/aos.css'
 import '../src/assets/style/modules/boostrap/bootstrap.css'
 import { useEffect } from 'react';
+import ScrollToTop from './components/scrolltotop';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -20,12 +21,13 @@ function App() {
   return (
     <>
     <Router>
+    <ScrollToTop/>
     <Routes>
       <Route index element={<Home />} />
       <Route path="/about" element={<About/>} />
       <Route path="/service" element={<Service/>} />
       <Route path="/blog" element={<Blog/>} />
-      <Route path="/portfolio" element={<Protfolio/>} />
+      <Route path="/protfolio" element={<Protfolio/>} />
       <Route path="/contact" element={<Contact/>} />
     </Routes>
     </Router>

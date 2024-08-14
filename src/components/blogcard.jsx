@@ -50,10 +50,10 @@ function BlogCard() {
                     {blogData.map((blog, index) => (
                         <div key={index} onClick={() => openModal(blog)} style={{ cursor: 'pointer' }}>
                             <div className="row mb-3">
-                                <div className="col-md-6 col-lg-5" data-aos="fade-right" data-aos-offset="10">
+                                <div className="col-md-6 col-lg-5 mb-3 mbm-md-0" data-aos="fade-right" data-aos-offset="10">
                                     <img src={blog.blogImage} className='blog-img' alt="Blog" />
                                 </div>
-                                <div className="col-md-6 col-lg-7" data-aos="fade-left" data-aos-offset="10">
+                                <div className="col-md-6 col-lg-7 mt-3 mt-md-0" data-aos="fade-left" data-aos-offset="10">
                                     <div className="blog-cont">
                                         <div className="d-flex align-items-center mb-3">
                                             <img src={blog.userImage} className='user-img' alt="User" />

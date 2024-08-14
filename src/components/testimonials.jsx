@@ -47,11 +47,11 @@ const settings = {
      <section className="testimonial" data-aos="fade-up" data-aos-offset="10">
         <div className="container">
          <div className=" m-auto overflow-hidden testimonial_slick" >
-          <div className='col-12 text-center mb-3'>
+          <div className='col-12 text-center mb-4'>
             <h4 className="mb-1 mt-3">Testimonials</h4>
             <h5 className="mb-3 mt-1">Lorem ipsum dolor sit amet.</h5>
             <div className="row align-items-center justify-content-center">
-              <div  className="col-lg-10 col-md-12  text-center rounded-20 bg-l-white">
+              <div  className="col-lg-10 col-md-12  text-center rounded-5 box-shadow-m">
                 <Slider {...settings}>
                   {data.map((d, index) => (
                       <div key={index} className='testi-cont  flex flex-col justify-center items-center '>

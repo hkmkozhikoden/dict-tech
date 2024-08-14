@@ -6,11 +6,11 @@ function AboutSection() {
       <section>
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-md-6" data-aos="fade-right" data-aos-offset="10">
+                <div className="col-md-6 mb-3 mb-md-0" data-aos="fade-right" data-aos-offset="10">
                     <img src={About} alt="About" className='img-fluid rounded-5' />
                 </div>
                 <div className="col-md-6" data-aos="fade-left" data-aos-offset="10">
-                    <div className="cont ps-3">
+                    <div className="cont ps-3 mt-3 mt-md-0">
                         <h5>WHO WE ARE</h5>
                         <h3>Problem Solvers</h3>
                         <h5 className='font-normal'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, voluptate deserunt. Adipisci accusamus a molestiae, laboriosam dicta repudiandae similique quas. Eaque obcaecati dolorem vitae, quam omnis illo, corporis eius laudantium doloribus quae quod quibusdam, similique ipsam officia rem rerum ab.</h5>

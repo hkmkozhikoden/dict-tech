@@ -29,10 +29,10 @@ function Footer() {
           <div className="col-lg-3 col-md-6 col-12 mb-3 mb-lg-0">
           <h3 className="widget-title">Quick Links</h3>
           <ul className='footer-contact'>
-          <Link to={"/"}> <li > Service</li></Link>
+          <Link to={"/"}> <li > Home</li></Link>
           <Link to={"/about"}><li>About</li></Link>
-          <Link to={"/blogs"}><li>Blog</li></Link>
-          <Link to={"/gallery"}><li>Gallery</li></Link>
+          <Link to={"/service"}><li>Service</li></Link>
+          <Link to={"/protfolio"}><li>Protfolio</li></Link>
           <Link to={"/contact"}><li>Contact</li></Link>
           </ul>
           </div>
@@ -57,8 +57,8 @@ function Footer() {
           </li>
           <li>
               <div className="">
-              <a className='d-block' href="mailto:jdtislamclt12@gmail.com">jdtislamclt12@gmail.com</a>
-              <a className='d-block' href="mailto:info@jdtislam.org">info@jdtislam.org</a>
+              <a className='d-block' href="mailto:dictotechnologies@gmail.com">dictotechnologies@gmail.com</a>
+              <a className='d-block' href="#">info@dictotechnologies.com</a>
               </div>
           </li>
          </ul>

@@ -2,3 +2,26 @@
 {
     position: relative;
 }
+.home-services-sec svg
+{
+    font-size: 50px;
+}
+.home-services-sec a
+{
+    color: #1b64eb;
+}
+.home-services-sec .ser-card{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d45d;
+    transition:0.4s;
+}
+.home-services-sec .ser-card:hover
+{
+    background-color: #222 ;
+    color: #f5f5f5 !important;
+    transform: scale(1.01);
+}
+.home-services-sec .ser-card:hover a{
+    color: #fff;
+}

@@ -13,9 +13,6 @@ function Services() {
       <section className='services-sec'>
         <div className="container">
             <div className="row">
-            <div className="col-12 text-center mb-3">
-                    <h2>Our Services</h2>
-                </div>
                 <div className="col-lg-4 col-md-6 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="ser-card">
                         <img className='img-fluid' src={Service1} alt="service" />
@@ -62,7 +59,7 @@ function Services() {
                     <div className="ser-card">
                         <img className='img-fluid' src={Service4} alt="service" />
                         <div className="cont mt-3">
-                            <h4>SEO Solutions</h4>
+                            <h4>Cloud Services</h4>
                             <p>Unlock your website's potential with tailored SEO strategies. Drive organic traffic, boost rankings, and grow your business effortlessly</p>
                             <a className='text-l-blue' href="">Read more</a>
                         </div>

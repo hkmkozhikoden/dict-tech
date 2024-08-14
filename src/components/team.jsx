@@ -18,7 +18,7 @@ function Team() {
       <section className='team-sec'>
         <div className="container">
             <div className="row">
-                <div className="col-12 mb-3 text-center">
+                <div className="col-12 mb-3 text-center" data-aos="fade-up" data-aos-offset="10">
                     <h2 className='text-uppercase'>Meet Our Team</h2>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up" data-aos-offset="10">
