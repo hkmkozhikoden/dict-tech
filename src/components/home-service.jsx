@@ -3,8 +3,8 @@ import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { MdOutlinePhoneIphone } from "react-icons/md";
 import { RiComputerLine } from "react-icons/ri";
 import { TbWorldSearch } from "react-icons/tb";
-import { TfiAnnouncement } from "react-icons/tfi";
-import { LuMonitorCheck } from "react-icons/lu";
+import { GrAnnounce } from "react-icons/gr";
+import { LuShoppingCart } from "react-icons/lu";
 import '../assets/style/home-services.css';
 import { Link } from 'react-router-dom';
 
@@ -26,17 +26,17 @@ function HomeServices() {
       description: "Turning your ideas into reality with smart, easy-to-use software solutions. We make innovation simple and accessible, just for you.",
     },
     {
-      icon: <TfiAnnouncement />,
+      icon: < GrAnnounce/>,
       title: "Digital Marketing",
       description: "Unlock your brand's potential with data-driven digital marketing. Our expert strategies connect you with your audience, driving growth and measurable results.",
     },
     {
       icon: <TbWorldSearch />,
-      title: "SEO Solutions",
+      title: "Cloud Services",
       description: "Unlock your website's potential with tailored SEO strategies. Drive organic traffic, boost rankings, and grow your business effortlessly.",
     },
     {
-      icon: <LuMonitorCheck />,
+      icon: <LuShoppingCart />,
       title: "E-commerce Solutions",
       description: "Transform your online store with our easy e-commerce solutions. From setup to growth, we handle the tech so you can focus on your business.",
     },

@@ -13,7 +13,7 @@ function ProtfolioCard() {
           title: 'School Website',
           url: 'https://jdtislamsda.org/',
           url1: 'https://jdtislamsda.org/',
-          content: 'The evolution of smart home technology is enhancing the way we live by offering integrated solutions for security, energy management, and convenience. As these technologies continue to advance, they promise to make our homes more efficient, secure, and comfortable, paving the way for a smarter future.',
+          content: 'JDT Islam is a school that caters to differently-abled students, focusing on their educational and holistic development. The institution provides specialized support and resources to ensure that every student can thrive in a nurturing and inclusive environment. For more details, you can visit their website',
       },
       {
         image: Sda,

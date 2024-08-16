@@ -18,7 +18,7 @@ function HomeBanner() {
                 <div className="container">
                  <div className="row">
                   <div className="col-md-8 col-lg-6"  data-aos="fade-up" data-aos-offset="10">
-                  <h1 className="text-xl-semibold">Excellence Through Innovation</h1>
+                  <h1 className="text-xl-semibold">Excellence Through <br /> Innovation</h1>
                   <Link to='/contact' className="btn-banner text-black">Book a meeting</Link>
                   </div>
                  </div>
@@ -33,28 +33,28 @@ function HomeBanner() {
                     <div className="col-md-3 mb-3 mb-md-0">
                       <div className="sm-card text-center">
                         <img className="icons" src={Clients} alt="Total Clients" />
-                        <h2>3 +</h2>
+                        <h4 className="mt-3">3 +</h4>
                         <h6 className="font-normal">successful client</h6>
                       </div>
                     </div>
                     <div className="col-md-3 mb-3 mb-md-0">
                       <div className="sm-card text-center">
                         <img className="icons" src={Faster} alt="Total Clients" />
-                        <h2>2 X</h2>
+                        <h4 className="mt-3">2 X</h4>
                         <h6 className="font-normal">Faster Deployment</h6>
                       </div>
                     </div>
                     <div className="col-md-3 mb-3 mb-md-0">
                       <div className="sm-card text-center">
                         <img className="icons" src={Devlivery} alt="Total Clients" />
-                        <h2>5/5</h2>
+                        <h4 className="mt-3">5/5</h4>
                         <h6 className="font-normal">On-time Delivery</h6>
                       </div>
                     </div>
                     <div className="col-md-3 mb-3 mb-md-0">
                       <div className="sm-card text-center">
                         <img className="icons" src={Faster} alt="Total Clients" />
-                        <h2>3 +</h2>
+                        <h4 className="mt-3">3 +</h4>
                         <h6 className="font-normal">successfull client</h6>
                       </div>
                     </div>
