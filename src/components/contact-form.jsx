@@ -15,60 +15,51 @@ function ContactForm() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-
-    // Check if CAPTCHA is completed
+    const formData = new FormData(event.target);
     if (!captchaToken) {
-        Swal.fire("Error", "Please complete the CAPTCHA", "error");
-        return;
+      Swal.fire("Error", "Please complete the CAPTCHA", "error");
+      return;
     }
 
-    // Collect the form data
-    const formData = new FormData(event.target);
     formData.append("access_key", "ebeea6dc-105b-4b6d-8400-aeff08f2898d");
     formData.append("g-recaptcha-response", captchaToken);
 
-    // Convert FormData to JSON
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
     const sendRequest = async () => {
-        try {
-            const res = await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json",
-                },
-                body: json,
-            });
-            return res.json();
-        } catch (error) {
-            console.error("Error sending request:", error);
-            return { success: false, message: "Network error. Please try again later." };
-        }
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      }).then((res) => res.json());
+
+      return res;
     };
 
     const res = await sendRequest();
 
-    // Handle the response from the API
     if (res.success) {
-        Swal.fire({
-            title: "Success!",
-            text: "Message sent successfully",
-            timer: 3000,
-            icon: "success",
-        }).then(() => {
-            event.target.reset();
-            setCaptchaToken(""); // Reset CAPTCHA token after success
-        });
+      Swal.fire({
+        title: "Success!",
+        text: "Message sent successfully",
+        timer: 3000,
+        icon: "success",
+      }).then(() => {
+        event.target.reset();
+        setCaptchaToken("");
+      });
     } else {
-        Swal.fire("Error", `There was an issue: ${res.message || "Please try again"}`, "error");
+      Swal.fire("Error", "There was an issue sending your message please enter proper details", "error");
     }
-};
+  };
 
-const handleCaptcha = (value) => {
-  setCaptchaToken(value); 
-};
+  const handleCaptcha = (value) => {
+    setCaptchaToken(value);
+  };
   
   return (
     <div>
@@ -82,23 +73,27 @@ const handleCaptcha = (value) => {
                   <form onSubmit={onSubmit}>
                   <div className="row">
                     <div className="col-md-6 mb-3">
-                      <label htmlFor="name">Name</label>
-                      <input className='form-control' type="text" name="name" id="name" placeholder='Enter Your name' required />
-                      </div>
-                    {/* <div className="col-md-6 mb-3">
+                      <label htmlFor="firstname">First Name</label>
+                      <input className='form-control' type="text" name="firstname" id="firstname" placeholder='Enter Your Name' required/> 
+                    </div>
+                    <div className="col-md-6 mb-3">
+                      <label htmlFor="lastname">Last Name</label>
+                      <input className='form-control' type="text" name="lastname" id="lastname" placeholder='Enter Your Name' required/> 
+                    </div>
+                    <div className="col-md-6 mb-3">
                     <label htmlFor="phone">Phone No:</label>
                       <input className='form-control' type="text" name="phone" id="phone" placeholder='Enter your Phone no:' required inputMode="numeric" pattern="\d{10,}" maxLength="10" onInput={(e) => {e.target.value = e.target.value.replace(/\D/g, '');}}/>
-                    </div> */}
+                    </div>
                     <div className="col-md-6 mb-3">
                     <label htmlFor="email">Email</label>
-                    <input className='form-control' type="email" name="email" id="email" placeholder='Enter your email' required />
+                      <input className='form-control' type="email" name="email" id="email" placeholder='Enter your Email'  required/>
                     </div>
                     <div className="col-md-12 mb-3">
-                    <label htmlFor="message">Message</label>
-                    <textarea className='form-control' name="message" id="message" placeholder='Enter your message'></textarea>
+                    <label htmlFor="Message">Message</label>
+                      <textarea className='form-control' type="text" name="Message" id="Message" placeholder='Enter your Note'  ></textarea>
                     </div>
                     <div className="col-12 mb-3">
-                    <ReCAPTCHA sitekey="6Lf5yXoqAAAAAHzq9DekQR6f2AztTi3Nn8bQqabi"onChange={handleCaptcha}/>
+                      <ReCAPTCHA sitekey="6LfmwXoqAAAAACD0YbCswwt-rDMzukV8CVfSgx8-" onChange={handleCaptcha}/>
                     </div>
                     <div className="col-12  mt-3 mb-3">
                         <button type='submit' className='btn'>Send</button>
