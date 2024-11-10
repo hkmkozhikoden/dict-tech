@@ -3,19 +3,19 @@
   position: relative;
   height: calc(100vh - 80px);;
 }
-@media (min-width:767px)
+@media (min-width:767px) and (max-width:992px)
 {
 .banner-slide
 {
   
-  height: calc(100vh - 80px);
+  height: calc(800px);
 
 }
 }
 @media (max-width:567px)
 {
   .banner-slide {
-    height: 80vh ;
+    height: 500px ;
   }
 }
 

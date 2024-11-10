@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import '../assets/style/footer.css';
 import { Link } from "react-router-dom";
 import Instagragm from "../assets/images/icons/insta.png";
@@ -20,7 +20,9 @@ function Footer() {
             <p className='sec-dec fs-14 px-2'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet facere hic incidunt minus quibusdam explicabo quis delectus modi qui!            </p>
             <div className='social'>
-              <img alt='insta' className='social-media-links' src={Instagragm}></img>
+              <a href="https://www.instagram.com/dicto_technologies/" target='_blank'>
+                <img alt='insta' className='social-media-links' src={Instagragm}></img>
+              </a>
               <img alt='Facebook' className='social-media-links' src={Facebook}></img>
               <img alt='Linkedin' className='social-media-links' src={Linkedin}></img>
               <img alt='Twitter' className='social-media-links' src={Twitter}></img>
