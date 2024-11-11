@@ -16,6 +16,8 @@ margin-bottom: 10px;
 {
     width: 100%;
     border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    font-size: 14px;
 }
 .contact-from-sec .contact-form .from-card textarea
 {
@@ -52,4 +54,8 @@ margin-bottom: 10px;
     background-color: #3a8ffd;
     color: #ffffff;
     border-radius: 0px;
+}
+.contact-from-sec .contact-form .form-control:focus{
+   box-shadow: none;
+   border: 1px solid #000;
 }
